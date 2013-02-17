@@ -7,6 +7,6 @@ class BackuperTest < MiniTest::Unit::TestCase
   end
 
   def test_backup
-    backup = Backuper.backup(@dir, options)
+    Backuper.backup(@dir)
   end
 end
