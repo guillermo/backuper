@@ -2,7 +2,6 @@
 
 $:.unshift(File.expand_path(File.join(__FILE__,"..","..","lib")))
 
-puts $:.inspect
 require 'backuper'
 
 Backuper.backup(Dir.pwd)
